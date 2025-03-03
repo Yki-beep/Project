@@ -64,14 +64,13 @@ h1, h2, h3{
 .image-grid{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
 }
 .image-grid img{
     width: 30vw;
-    height: 100%;
+    height: auto;
     background-color: #fff;
     padding: 5px;
     border-radius: 5px;
