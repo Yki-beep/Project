@@ -5,6 +5,7 @@ body{
     padding: 0;
     font-size: 20px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header, footer{
     background: linear-gradient(90deg, #0000ff , #ff00ff, #0000ff);
@@ -27,7 +28,8 @@ nav ol{
 a{
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-weight: 700;
 }
 h1, h2, h3{
     text-transform: capitalize;
